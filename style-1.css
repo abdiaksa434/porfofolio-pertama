@@ -555,7 +555,8 @@ footer .footer-content{
 
     /* footer */
     footer .footer-content{
-        grid-template-columns: repeat(2, 1fr);
+        justify-items: flex-start;
+        grid-template-columns: repeat(1, 1fr);
     }
 
 
